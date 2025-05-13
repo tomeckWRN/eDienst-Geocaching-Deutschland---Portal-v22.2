@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>eDienst Geocaching-Deutschland - Portal v22.2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+        }
+        p {
+            font-size: 22px;
+        }
+        .linkbox {
+            margin: 40px 0;
+        }
+        a.service-link {
+            display: block;
+            margin: 20px 0;
+            font-size: 24px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        .error {
+            color: red;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        .source-button {
+            margin-top: 50px;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: none;
+            color: transparent;
+            cursor: pointer;
+        }
+        #sourceView {
+            display: none;
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            text-align: left;
+            padding: 30px;
+            margin-top: 40px;
+            font-family: Consolas, monospace;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>eDienst Geocaching-Deutschland - Portal v22.2</h1>
+    <p>Bitte wählen Sie Ihren Verwaltungsbereich:</p>
+    <div class="linkbox">
+        <a class="service-link" href="#" onclick="showError('403 - Zugriff verweigert'); return false;">Bürgerdienste</a>
+        <a class="service-link" href="#" onclick="showError('500 - Interner Serverfehler'); return false;">Bauwesen</a>
+        <a class="service-link" href="#" onclick="showError('404 - Seite nicht gefunden'); return false;">Gesundheit</a>
+        <a class="service-link" href="#" onclick="showError('410 - Seite entfernt'); return false;">IT-Services</a>
+        <a class="service-link" href="#" onclick="showError('503 - Dienst nicht verfügbar'); return false;">Internes</a>
+    </div>
+    <div class="error" id="errorBox"></div>
+
+    <!-- base64://TjQ4wrAgNDQuNzM3IEUwMDjCsCAwMi44NDk= -->
+
+    <a class="source-button" style="width: 20px; height: 20px; position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);" href="#" onclick="document.getElementById('sourceView').style.display='block'; return false;"></a>
+
+    <div id="sourceView">
+<h1>Quellcode</h1>
+<pre>
+<!-- base64://TjQ4wrAgNDQuNzM3IEUwMDjCsCAwMi44NDk= -->
+<!-- Dekodiert: N48° 44.737 E008° 02.849 -->
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;de&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;eDienst Deutschland - Portal v22&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+        }
+        p {
+            font-size: 22px;
+        }
+        .linkbox {
+            margin: 40px 0;
+        }
+        a.service-link {
+            display: block;
+            margin: 20px 0;
+            font-size: 24px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        .error {
+            color: red;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        .source-button {
+            margin-top: 50px;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: none;
+            color: transparent;
+            cursor: pointer;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;eDienst Deutschland - Portal v22&lt;/h1&gt;
+    &lt;p&gt;Bitte wählen Sie Ihren Verwaltungsbereich:&lt;/p&gt;
+    &lt;div class=&quot;linkbox&quot;&gt;
+        &lt;a class=&quot;service-link&quot; href=&quot;#&quot; onclick=&quot;showError('403 - Zugriff verweigert'); return false;&quot;&gt;Bürgerdienste&lt;/a&gt;
+        &lt;a class=&quot;service-link&quot; href=&quot;#&quot; onclick=&quot;showError('500 - Interner Serverfehler'); return false;&quot;&gt;Bauwesen&lt;/a&gt;
+        &lt;a class=&quot;service-link&quot; href=&quot;#&quot; onclick=&quot;showError('404 - Seite nicht gefunden'); return false;&quot;&gt;Gesundheit&lt;/a&gt;
+        &lt;a class=&quot;service-link&quot; href=&quot;#&quot; onclick=&quot;showError('410 - Seite entfernt'); return false;&quot;&gt;IT-Services&lt;/a&gt;
+        &lt;a class=&quot;service-link&quot; href=&quot;#&quot; onclick=&quot;showError('503 - Dienst nicht verfügbar'); return false;&quot;&gt;Internes&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;error&quot; id=&quot;errorBox&quot;&gt;&lt;/div&gt;
+
+    &lt;!-- base64://TjQ4wrAgNDQuNzM3IEUwMDjCsCAwMi44NDk= --&gt;
+
+    &lt;a class=&quot;source-button&quot; href=&quot;#&quot;&gt;&lt;/a&gt;
+
+    &lt;script&gt;
+        function showError(message) {
+            document.getElementById('errorBox').textContent = message;
+        }
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+    </div>
+
+    <script>
+        function showError(message) {
+            document.getElementById('errorBox').textContent = message;
+        }
+    </script>
+</body>
+</html>
